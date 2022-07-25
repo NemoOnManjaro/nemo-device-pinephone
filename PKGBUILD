@@ -22,11 +22,14 @@ depends=('glacier-wayland-session'
 	'ofono'
 	'ofonoctl'
 	'libqofono-qt5'
-	'glacier-dialer-git'
-	'glacier-pinquery-git'
+	'glacier-dialer'
+	'glacier-pinquery'
 	'qt5-sensors-sensorfw'
 	'qt5-feedback-haptics-native-vibrator'
-	'qt-mobility-haptics-ffmemless-git')
+	'qt-mobility-haptics-ffmemless'
+	'bluez-utils>5.44'
+	'gpsd'
+	'buteo-mtp')
 
 makedepends=('git')
 provides=("${pkgname%-git}")
