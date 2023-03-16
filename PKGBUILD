@@ -4,7 +4,7 @@
 _basename=nemo-device-dont_be_evil
 pkgname=nemo-device-pinephone
 
-pkgver=0.13.1
+pkgver=0.13.2
 pkgrel=1
 pkgdesc="PinePhone specific files for GlacierUX"
 arch=('aarch64')
@@ -31,7 +31,7 @@ depends=('glacier-wayland-session'
 
 conflicts=("usb-tethering")
 source=("${url}/archive/refs/tags/$pkgver.tar.gz")
-sha256sums=('3b8df7ed2d0d30d9e9692b85c1a7ec07934763a27d0043d61ed8ae9df8ca5422')
+sha256sums=('3abeeb87d5b79ec0dc5d9b424dd19edaa910e085e4d57bd6d6645c907f69e5ea')
 
 package() {
     mkdir -p ${pkgdir}
